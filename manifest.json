@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "AI Energy Saver",
+    "version": "1.0",
+    "description": "Reduce unnecessary AI energy consumption by optimizing ChatGPT interactions.",
+    "permissions": ["storage"],
+    "host_permissions": ["https://chatgpt.com/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://chatgpt.com/*"],
+        "js": ["content.js"],
+         "run_at": "document_idle"
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html"
+
+    }
+  }
+  
