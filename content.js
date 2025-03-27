@@ -1,5 +1,5 @@
 console.log("✅ AI Energy Saver Extension Loaded");
-
+let totalCO2=0;
 // Ask background.js for the "enabled" value
 chrome.runtime.sendMessage({ action: "getStorage", key: "enabled" }, function (response) {
     if (response?.enabled) {
@@ -21,11 +21,60 @@ function monitorUserInput() {
             // Listen for user input
             chatBox.addEventListener("input", handleUserInput);
             chatBox.addEventListener("keyup", handleUserInput);
+
+            // Detect when the user submits a query
+            chatBox.addEventListener("keydown", function (event) {
+                if (event.key === "Enter" && !event.shiftKey) {
+                    setTimeout(() => displayCarbonFootprint(), 500);
+                }
+            });
         } else {
             console.log("⏳ Waiting for active ChatGPT input box...");
         }
     }, 1000);
 }
+
+
+function calculateCarbonFootprint() {
+    let minCO2 = 2; // Minimum estimated CO₂ in grams
+    let maxCO2 = 5; // Maximum estimated CO₂ in grams
+    let estimatedCO2 = (Math.random() * (maxCO2 - minCO2) + minCO2).toFixed(2); // Random value in range
+    return estimatedCO2;
+}
+// Convert CO₂ emissions to equivalent driving distance
+function co2ToDrivingDistance(co2Grams) {
+    const gramsPerKm = 192; // Average car CO₂ emission per km
+    return (co2Grams / gramsPerKm).toFixed(2);
+}
+
+function displayCarbonFootprint() {
+    let footprint = calculateCarbonFootprint();
+    totalCO2 += parseFloat(footprint); // Update cumulative total
+
+    let kmEquivalent = co2ToDrivingDistance(totalCO2);
+
+    let label = document.getElementById("carbon-footprint-label");
+    if (!label) {
+        label = document.createElement("div");
+        label.id = "carbon-footprint-label";
+        label.style.cssText = `
+            position: fixed; top: 10px; right: 10px; 
+            background: #222; color: #fff;
+            padding: 10px 15px; border-radius: 10px;
+            font-size: 16px; font-weight: bold; opacity: 0.9;
+            z-index: 10000;
+        `;
+        document.body.appendChild(label);
+    }
+
+    // More meaningful text display
+    label.innerHTML = `
+        🌍 This query used ~${footprint}g of CO₂<br>
+        🔄 Total CO₂ emitted so far: ~${totalCO2.toFixed(2)}g<br>
+        🚗 This equals driving a car for ~${kmEquivalent} km
+    `;
+}
+
 
 function handleUserInput() {
     let chatBox = document.querySelector("div#prompt-textarea.ProseMirror");
@@ -143,4 +192,3 @@ function showSuggestionBanner() {
         banner.remove();
     }, 10000);
 }
-
