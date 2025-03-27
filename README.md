@@ -23,7 +23,7 @@ Our **Chrome Extension** helps optimize AI interactions by **minimizing unnecess
 
 ## 🎥 Product Demo  
 [![Watch the Demo](https://drive.google.com/file/d/1k1-W5LhJ4v5mjXVYXIFU2YSMx79S5SSq/view?usp=sharing)] 
-*Click the image above to view our product walkthrough*  
+
 
 ## 🛠️ Tech Stack  
 | Technology    | Version | Purpose                        |  
