@@ -5,9 +5,11 @@
 
 **Team Members:**  
 - **Gopika Sreekumar**  
-  - [GitHub](https://github.com/Gopika4112) - [Role/Contribution]  
+  - [GitHub](https://github.com/Gopika4112)  
+  - **Role/Contribution:** Implemented **Smart Redirection** & **Response Length Limiter** features.  
 - **Ann Flo S Poonolil**  
-  - [GitHub](https://github.com/annflospoonolil) - [Role/Contribution]  
+  - [GitHub](https://github.com/annflospoonolil)  
+  - **Role/Contribution:** Implemented **Carbon Footprint Display** feature.  
 
 ## 💡 Project Idea  
 Artificial Intelligence models, especially large-scale ones like ChatGPT, consume significant computational power and energy. A single AI-generated response can use **multiple times the energy of a standard Google search**, leading to a higher carbon footprint.  
@@ -26,7 +28,7 @@ Our **Chrome Extension** helps optimize AI interactions by **minimizing unnecess
 ## 🛠️ Tech Stack  
 | Technology    | Version | Purpose                        |  
 |--------------|---------|--------------------------------|  
-| **JavaScript** | ES6+    | Core extension logic          |   
+| **JavaScript** | ES6+    | Core extension logic          |    
 | **HTML & CSS** | Latest | UI components                 |  
 
 ## 🛠️ Setup Instructions  
@@ -38,5 +40,5 @@ Our **Chrome Extension** helps optimize AI interactions by **minimizing unnecess
 ### Installation  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/DSolve-2025.git
-   cd DSolve
+   git clone https://github.com/DSolve-25.git
+   cd DSolve-25
