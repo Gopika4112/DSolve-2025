@@ -1,67 +1,42 @@
-# 🚀 DSolve-2025 Hackathon
+# 🚀 Optimizing AI Usage: A Chrome Extension for Energy-Efficient AI Interactions  
 
-## 👥 Team Information
-**Team Name:** [Rocket & Groot]  
+## 👥 Team Information  
+**Team Name:** Rocket & Groot  
 
-**Team Members:**
-- Gopika Sreekumar
-- [Member 1's Github ](https://github.com/Gopika4112) - Role/Contribution
-- Ann Flo S Poonolil
-- [Member 2's Github](https://github.com/annflospoonolil) - Role/Contribution
+**Team Members:**  
+- **Gopika Sreekumar**  
+  - [GitHub](https://github.com/Gopika4112) - [Role/Contribution]  
+- **Ann Flo S Poonolil**  
+  - [GitHub](https://github.com/annflospoonolil) - [Role/Contribution]  
 
-## 💡 Project Idea
-[A clear, concise 2-3 sentence description of your project's purpose and value proposition]
+## 💡 Project Idea  
+Artificial Intelligence models, especially large-scale ones like ChatGPT, consume significant computational power and energy. A single AI-generated response can use **multiple times the energy of a standard Google search**, leading to a higher carbon footprint.  
 
-## ✨ Key Features
-- 🔍 Feature 1: [Brief description]
-- ⚡ Feature 2: [Brief description] 
-- 🛡️ Feature 3: [Brief description]
+Our **Chrome Extension** helps optimize AI interactions by **minimizing unnecessary energy consumption** while maintaining usability. By reducing redundant AI-generated responses and encouraging more efficient search habits, we promote a **more sustainable approach to AI usage**.  
 
-## 🎥 Product Demo
-[![Watch the Demo](https://via.placeholder.com/300x200?text=Click+for+Demo+Video)](https://youtube.com/link-to-video)
-*Click the image above to view our product walkthrough*
+## ✨ Key Features  
+- 🔍 **Smart Redirection** – Suggests a Google search instead of ChatGPT when applicable, saving energy.  
+- ✍️ **Response Length Limiter** – Asks users to specify a word limit, preventing excessive AI computation.  
+- 🌍 **Carbon Footprint Display** – Shows the estimated carbon footprint of each AI query, raising awareness about energy consumption.  
 
-## 🛠️ Tech Stack
-| Technology | Version | Purpose |
-|------------|---------|---------|
-| Tech 1     | vX.X.X  |         |
-| Tech 1     | vX.X.X  |         |
-| Tech 1     | vX.X.X  |         |
+## 🎥 Product Demo  
+[![Watch the Demo](https://via.placeholder.com/300x200?text=Click+for+Demo+Video)](https://youtube.com/link-to-video)  
+*Click the image above to view our product walkthrough*  
 
-## 🛠️ Setup Instructions
+## 🛠️ Tech Stack  
+| Technology    | Version | Purpose                        |  
+|--------------|---------|--------------------------------|  
+| **JavaScript** | ES6+    | Core extension logic          |   
+| **HTML & CSS** | Latest | UI components                 |  
 
-### Prerequisites
-- Node.js v16+ / Python 3.8+
-- npm/yarn/pip
-- [Any other requirements]
+## 🛠️ Setup Instructions  
 
-### Installation
-```bash
-// {Enter the commands for installation here}
-```
+### Prerequisites  
+- Google Chrome Browser  
+- Basic knowledge of Chrome extensions  
 
-### Running the Project
-```bash
-// {Enter the commands for running here}
-```
-
-## 🤝 How to Contribute
-We welcome contributions! Here are some ways you can help:
-
-### Good First Issues
-- [ ] Implement feature X
-- [ ] Improve documentation
-- [ ] Fix bug #123
-
-### Contribution Workflow
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
-
-
-## Acknowledgments
-- [Inspiration source 1]
-- [Library/framework documentation]
-- [Team members/mentors]
+### Installation  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/DSolve-2025.git
+   cd DSolve
