@@ -22,7 +22,7 @@ Our **Chrome Extension** helps optimize AI interactions by **minimizing unnecess
 - 🌍 **Carbon Footprint Display** – Shows the estimated carbon footprint of each AI query, raising awareness about energy consumption.  
 
 ## 🎥 Product Demo  
-[![Watch the Demo](https://via.placeholder.com/300x200?text=Click+for+Demo+Video)](https://youtube.com/link-to-video)  
+[![Watch the Demo](https://drive.google.com/file/d/1k1-W5LhJ4v5mjXVYXIFU2YSMx79S5SSq/view?usp=sharing)] 
 *Click the image above to view our product walkthrough*  
 
 ## 🛠️ Tech Stack  
