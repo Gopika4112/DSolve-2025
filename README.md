@@ -1,13 +1,13 @@
 # 🚀 DSolve-2025 Hackathon
 
 ## 👥 Team Information
-**Team Name:** [Your Creative Team Name]  
+**Team Name:** [Rocket & Groot]  
 
 **Team Members:**
-- Member 1 Name
-- [Member 1's Github ](https://github.com/username) - Role/Contribution
-- Member 2 Name
-- [Member 2's Github](https://github.com/username) - Role/Contribution
+- Gopika Sreekumar
+- [Member 1's Github ](https://github.com/Gopika4112) - Role/Contribution
+- Ann Flo S Poonolil
+- [Member 2's Github](https://github.com/annflospoonolil) - Role/Contribution
 
 ## 💡 Project Idea
 [A clear, concise 2-3 sentence description of your project's purpose and value proposition]
